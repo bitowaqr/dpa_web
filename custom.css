@@ -1,0 +1,220 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime: 200, 300, 400, 500i');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans: 200, 300, 350,400,500i,600, 700');
+
+
+
+* {
+    font-family: "Work Sans", Arial;
+}
+
+
+html, body
+{
+    overflow-x: hidden;
+}
+
+body{
+    margin-top: 70px
+}
+
+
+/* headings */
+.section-head {
+    color: magenta;
+}
+
+.service-head {
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 48px;
+}
+
+
+
+/* NAVBAR */
+.nav-link {
+    font-weight: 400;
+    color: black !important;
+}
+.nav-link:hover {
+    color: magenta !important;
+    font-weight: 600;
+}
+
+.nav-link:focus {
+
+
+}
+
+.active {
+    color: magenta !important;
+    font-weight: 400;
+}
+
+#typewriter span {
+    color: white;
+    border-right: 1px solid;
+    animation: caret 0.5s steps(1) infinite;
+    line-height: 40px;
+  }
+  @keyframes caret {
+    50% {
+      border-color: transparent;
+    }
+  }
+
+.autohide  {
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+.scrolled-down{
+    transform:translateY(-100%); transition: all 0.3s ease-in-out;
+  }
+.scrolled-up{
+    transform:translateY(0); transition: all 0.3s ease-in-out;
+}
+
+
+/* parallax at top */
+.parallax-wrap {
+    background-image: url("./assets/office_logo.png");
+    max-width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-wrap2 {
+    background-image: url("./assets/peaks.jpg");
+    max-width: 100%;
+    height: 100vh;
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.parallax-content {
+    position: relative;
+    z-index: 1;
+    font-family: "Courier Prime", "Open Sans", Arial;
+    font-weight: 400;
+    min-width: 450px;
+    margin-top: 25vh;
+}
+
+.parallax-content2 {
+    position: absolute;
+    z-index: 1;
+    font-weight: 400;
+    bottom: 10%;
+    right: 5%;
+    width: 40%;
+}
+
+.highlight {
+    color: magenta;
+    font-weight: light;
+    text-transform: uppercase;
+}
+
+.highlight_lower{
+    color: magenta;
+}
+
+/* spacer */
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%), inset 0 0.125em 0.5em rgb(0 0 0 / 15%);
+}
+
+
+.featured-section {
+    padding: 100px 100px !important;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%), inset 0 0.125em 0.5em rgb(0 0 0 / 15%);
+}
+
+.accordion-body li {
+    padding-top: 15px;
+    font-weight: 400;
+}
+
+.accordion-body ul {
+    margin: 0;
+}
+
+.hidden-pubs-btn, .hide-pubs-btn {
+    cursor: pointer;
+    list-style-type: none;
+    color: #0d6efd;
+    margin-top: 10px;
+  }
+
+.hidden-pubs {
+    display: none;
+}
+
+
+/* testimonial bg */
+.alt_container {
+    background-color: #dee2e6;
+}
+
+.avatar-container {
+    min-width: 350px;
+    margin-top: 50px;
+}
+
+.bio {
+    min-width: 300px;
+    margin-top: 20px
+}
+.avatar {
+    display: block;
+    object-fit: cover;
+    width: 15vw;
+    height: 15vw;
+    min-width: 200px;
+    min-height: 200px;
+    border-radius: 50%!important;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19)!important;    
+}
+
+@media (min-width: 1024px)
+avatar {
+    width: 45%;
+    margin-right: 4rem;
+}
+@media (min-width: 768px)
+avatar {
+    width: 40%;
+    margin-right: 2rem;
+}
+
+
+.paul {
+    background-image: url("./assets/paul.jpg");
+    
+}
+
+.rob {
+    background-image: url("./assets/rob.png");
+    
+}
