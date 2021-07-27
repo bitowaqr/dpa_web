@@ -1,30 +1,20 @@
 
-let lastId;
-
 // scrolling to internal href
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
-
-
-
+        
         const element = document.querySelector(this.getAttribute('href'))
-const offset = 15;
-const bodyRect = document.body.getBoundingClientRect().top;
-const elementRect = element.getBoundingClientRect().top;
-const elementPosition = elementRect - bodyRect;
-const offsetPosition = elementPosition - offset;
+        const offset = 15;
+        const bodyRect = document.body.getBoundingClientRect().top;
+        const elementRect = element.getBoundingClientRect().top;
+        const elementPosition = elementRect - bodyRect;
+        const offsetPosition = elementPosition - offset;
 
-window.scrollTo({
-  top: offsetPosition,
-  behavior: 'smooth'
-});
-
-
-
-        // document.querySelector(this.getAttribute('href')).scrollIntoView({
-        //     behavior: 'smooth'
-        // });
+        window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+        });
     });
 });
 
@@ -53,21 +43,6 @@ document.addEventListener("DOMContentLoaded", function () {
     if (navbar) {
 
         var last_scroll_top = 0;
-
-        // window.addEventListener('scroll', function () {
-        //     let scroll_top = window.scrollY;
-        //     // if (scroll_top < last_scroll_top) {
-        //     //     // navbar.style.dispalay = "none"
-        //     //     navbar.classList.add('scrolled-up');
-        //     // }
-        //     // else {
-        //     //     navbar.classList.remove('scrolled-up');
-        //     //     navbar.classList.add('scrolled-down');
-        //     // }
-        //     last_scroll_top = scroll_top;
-        // });
-
-
 
         // HIGHLIGHT LINK
         let lastId;
@@ -119,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function () {
         //  TYPE WRITER ANIMATION
         var dataText = [
             "Consulting at the intersection of health economics and data science.",
-            "We help you to translate numbers into knowledge, and knowledge into action."
+            "We help you to translate data into knowledge, and knowledge into action."
         ];
 
         // type one text in the typwriter
@@ -133,7 +108,7 @@ document.addEventListener("DOMContentLoaded", function () {
             // wait for a while and call this function again for next character
             setTimeout(function() {
               typeWriter(text, i + 1, fnCallback)
-            }, 50);
+            }, 45);
           }
           // text finished, call callback if there is a callback function
           else if (typeof fnCallback == 'function') {
@@ -174,4 +149,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+
+
+// Enabling tooltip joke
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
 

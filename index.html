@@ -8,7 +8,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="./assets/dpa2.png" />
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="custom.css">
-    
+
 
 </head>
 <body>
@@ -19,11 +19,14 @@
 <nav class="autohide navbar navbar-expand-lg navbar-light bg-white position-fixed w-100 border-bottom shadow-sm" id="navbar-hide">
     <div class="container">
 
-      <a class="navbar-brand fw-normal pull-left" href="#hero"> 
-          <img src="./assets/dpa2.png" height="50" alt=""> Dark Peak Analytics</a>
+        <a class="navbar-brand fw-normal" href="#hero">
+          <img src="./assets/dpa2.png" height="50" alt=""> Dark Peak Analytics
+        </a>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
-         <span class="navbar-toggler-icon"></span>
+      <button class="navbar-toggler"
+      type="button" data-bs-toggle="collapse"
+      data-bs-target="#main_nav">
+        <span class="navbar-toggler-icon"></span>
       </button>
 
      <div class="collapse navbar-collapse" id="main_nav">
@@ -76,6 +79,9 @@
       <div class= "section" id = "whatWeDo">
 
 
+
+
+
         <div class="px-4 py-5 px-5 my-5 row">
 
             <h1 class="display-5 section-head">#whatWeDo</h1>
@@ -83,7 +89,21 @@
             <!-- service 1 -->
                 <div class="offset-lg-1 col-lg-4 p-3 pt-lg-1 mt-5">
                     <h2 class="service-head">Health economic decision modelling</h2>
-                    <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                    <p class="lead">
+                        We develop decision analytical models in R. We have experience with all sorts of models, ranging from simple decision trees and Markov models, to sophisticated individual patient simulations. We are also happy to help you figure out what kind of model best fits your decision problem, and to implement more advanced analytical methods, such as value of information, or model calibration.
+
+
+
+                        <a class="highlight_lower" data-bs-toggle="tooltip"
+                        data-bs-html="true" title=
+                        "<div><img class='a_joke border' src='./assets/a_joke.jpg'></div>"
+                        data-bs-placement="top" offset = "0"
+                        >
+                            (Why R?)
+                          </a>
+
+
+                    </p>
                 </div>
                 <div class="col-lg-5 offset-lg-1 p-0 overflow-hidden shadow-lg mt-5">
                     <img class="rounded-lg-3" src="" alt="" width="720">
@@ -91,8 +111,10 @@
 
                 <!-- service 2 -->
                 <div class="offset-lg-1 col-lg-4 p-3 pt-lg-1 mt-5">
-                    <h2 class="service-head">MS Excel -> R </h2>
-                    <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                    <h2 class="service-head">MS Excel &#8594; R </h2>
+                    <p class="lead">
+                        Do you have an old, clunky decision model in MS Excel that could do with a turbo boost? Or do you want to upgrade a model and run computationally expensive analyses (like EVPPI)? We 'translate' your model into R, make it faster, easier to use, with a clear documentation, that ensures that it can be easily maintained and updated in the future.
+                    </p>
                 </div>
                 <div class="col-lg-5 offset-lg-1 p-0 overflow-hidden shadow-lg mt-5">
                     <img class="rounded-lg-3" src="" alt="" width="720">
@@ -102,7 +124,9 @@
                 <!-- service 3 -->
                 <div class="offset-lg-1 col-lg-4 p-3 pt-lg-1 mt-5">
                     <h2 class="service-head">Interactive user-interfaces </h2>
-                    <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                    <p class="lead">
+                        Our particular area of expertise is in the creation of bespoke interactive user-interfaces for health economic models constructed in R and data dashboards. We work in short sprints and in close collaboration with you to develop interfaces that are intuitive and easy to use for your target audience.
+                    </p>
                 </div>
                 <div class="col-lg-5 offset-lg-1 p-0 overflow-hidden shadow-lg mt-5">
                     <img class="rounded-lg-3" src="" alt="" width="720">
@@ -112,7 +136,13 @@
                 <!-- service 4 -->
                 <div class="offset-lg-1 col-lg-4 p-3 pt-lg-1 mt-5">
                     <h2 class="service-head">Training </h2>
-                    <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                    <p class="lead">
+                        The biggest barrier to adoption of R is the lack of familiarity of health economists, who have been working in Excel for years.</p>
+
+                        <p class="lead">We provide small group workshops and training to get you up to speed with health economic modelling in R. We help you to set up a modern, collaborative working enviroment, and support you in designing more efficient and powerful analytical processes.
+
+                        </p>
+
                 </div>
                 <div class="col-lg-5 offset-lg-1 p-0 overflow-hidden shadow-lg mt-5">
                     <img class="rounded-lg-3" src="" alt="" width="720">
@@ -140,33 +170,62 @@
 
 
 
-        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg bg-white my-1">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg bg-white my-1 pb-5">
 
-            <h1 class="container mb-0 display-5  p-lg-5 pt-lg-1 lh-1 py-0 my-0 lh section-head" id="shinyUI">#shinyUI <span class="badge rounded-pill bg-dark   bg-secondary rounded-3 fs-6 fw-normal fw-lighter ">featured</span></h1>
+            <h1 class="container mb-0 display-5  p-lg-5 pt-lg-1 lh-1 py-0 my-0 lh section-head" id="shinyUI">#shinyUI: sadm-mk2 <span class="badge rounded-pill bg-dark   bg-secondary rounded-3 fs-6 fw-normal fw-lighter">featured</span></h1>
 
+            <p class="lead mx-5 px-5 col-8 mb-3">
+                Take a fresh, interactive approach to communicating the results of your decision model -  R Shiny allows stakeholders to directly interact with the model and let them try their own scenarios.
+            </p>
+            <p class="lead mx-5 px-5 col-8 mb-3">
+                <a class="highlight_lower a" href = "https://darkpeakanalytics.shinyapps.io/sadm-mk2/" target="_blank">sadm-mk2</a> is a simple prototype of a clean web-based user interface for a time-dependant Markov model. It highlights some of the advantages that R/shiny can offer.
+            </p>
 
             <div class="d-flex flex-row flex-wrap my-5">
-                <div class="col-lg-5  p-3 offset-lg-1 overflow-hidden border">
-                    <img class="rounded-lg-3" src="" alt="" width="720">
+                <div class="col-lg-5 offset-lg-1 overflow-hidden border rounded-3 p-2">
+                    <img src="./assets/sadm-mk2.png" alt="" width="90%">
                 </div>
 
-                <div class="col-lg-5 px-5">
-                    <h2 class="display-5 fw-light lh-1 ">featured project 2</h2>
-                    <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-                    <button type="button" class="btn btn-outline-secondary btn-lg px-3">Default</button>
-                    </div>
+                <div class="col-lg-6 px-5">
+                    <h2 class="display-5 fw-light lh-1 ">Fast runtime</h2>
+                    <p class="lead">
+                        The sadm-mk2 model is built in R and C++. It runs 1,000 PSA iterations in less than 4 seconds. This allows us to explore many different scenarios 'on the fly', e.g. during a meeting. It also enables running advanced value of information analyses - even value of sample information analyses (estimating the expected benefit from additional trials) are feasible.
+                    </p>
                 </div>
             </div>
 
             <div class="d-flex flex-wrap flex-row my-5">
 
             <div class="col-lg-5  offset-lg-1">
-                <h2 class="display-5 fw-light lh-1 ">featured project 2</h2>
-                <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                <h2 class="display-5 fw-light lh-1 ">Analysis pipeline</h2>
+                <p class="lead">
+                    Traditionally, decision modelling involved multiple applications: Stata for the survival analysis, Excel with VBA makros for the model, Word and Powerpoint for the reporting. With R, we can now facilitate an integrated analysis pipeline all the way through: figures in your report will be automatically updated if something in the survival model at the beginning is changed.
+
+
+                </p>
             </div>
-            <div class="col-lg-5 ms-5 overflow-hidden border">
-                <img class="rounded-lg-3" src="" alt="" width="720">
+            <div class="col-lg-5 ms-5 overflow-hidden border p-1 rounded-3">
+                <img class="" src="./assets/good_pipe.png" alt="" width="100%">
+            </div>
+        </div>
+
+
+
+
+
+        <div class="d-flex flex-row flex-wrap my-5">
+            <div class="col-lg-5 offset-lg-1 overflow-hidden border rounded-3 p-2">
+                <img src="./assets/choose_model.png" alt="" width="100%">
+            </div>
+
+            <div class="col-lg-6 px-5">
+                <h2 class="display-5 fw-light lh-1 ">Stakeholder engagement</h2>
+                <p class="lead">
+                    Web-based user-interfaces allow stakeholders to interact with decision models, even if they are not familiar with R or programming in general. They can tweak different parameters, input their assumptions, and explore their own scenarios. This helps to communicate the results of decision models transparently and more effectively than in a report.
+                </p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end mb-4 me-5 pe-4 pt-4 mb-lg-3">
+                <a class="a btn btn-lg px-3 bg-info text-white" href="https://darkpeakanalytics.shinyapps.io/sadm-mk2/" target="_blank">Try sadm-mk2</a>
+                </div>
             </div>
         </div>
 
@@ -187,7 +246,7 @@
 
 
             <!-- RESEARCH -->
-        
+
 
 
             <div class="px-4 py-5 px-5 my-5 row">
@@ -198,10 +257,10 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit inventore maiores eum provident unde impedit voluptas ex magnam ipsa consequuntur ad rem, saepe praesentium. Commodi vitae consequatur et facere quidem.
                 </div>
 
-                <div class="accordion accordion-flush col-lg-8 offset-lg-2 container mb-5" id="accordionFlushExample">
+                <div class="accordion accordion col-lg-8 offset-lg-2 container mb-5" id="accordionFlushExample">
                 <div class="accordion-item">
                       <h2 class="accordion-header" id="flush-headingOne">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
                           Publications
                         </button>
                       </h2>
@@ -214,13 +273,13 @@
                                 </li>
 
 
-                                <li>Schneider, P., 2020. Social tariffs and democratic choice–do population-based health state values reflect the will of the people? Health Economics. https://doi.org/10.1002/hec.4179
+                                <li><b>Schneider, P.</b>, 2020. Social tariffs and democratic choice–do population-based health state values reflect the will of the people? Health Economics. <a href="https://doi.org/10.1002/hec.4179" target="_blank" rel="noopener noreferrer">https://doi.org/10.1002/hec.4179</a>
                                 </li>
 
-                                <li>Smith, R and Schneider, P. 2020. Making health economic models Shiny: A tutorial. Wellcome Open Research, 5:69. https://doi.org/10.12688/wellcomeopenres.15807.2
+                                <li><b>Smith, R and Schneider, P.</b> 2020. Making health economic models Shiny: A tutorial. Wellcome Open Research, 5:69. <a href="https://doi.org/10.12688/wellcomeopenres.15807.2" target="_blank" rel="noopener noreferrer">https://doi.org/10.12688/wellcomeopenres.15807.2</a>
                                 </li>
 
-                                <li>Schneider, P.P., Smith, R.A., Bullas, A.M., Bayley, T., Haake, S.S., Brennan, A. and Goyder, E. 2020. Multiple deprivation and geographic distance to community physical activity events — achieving equitable access to parkrun in England. Journal of Public Health. 48;53(189).  https://doi.org/10.1016/j.puhe.2020.09.002
+                                <li><b>Schneider, P.P.</b>, Smith, R.A., Bullas, A.M., Bayley, T., Haake, S.S., Brennan, A. and Goyder, E. 2020. Multiple deprivation and geographic distance to community physical activity events — achieving equitable access to parkrun in England. Journal of Public Health. 48;53(189).  <a href="https://doi.org/10.1016/j.puhe.2020.09.002" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.puhe.2020.09.002</a>
                                 </li>
 
                                 </ul>
@@ -233,29 +292,29 @@
                                             <li>Carr, K., Donaldson, C., Wildman, J., <b>Smith, R.</b>, & Vernazza, C. 2021. ‘An Examination of Consistency in the Incremental Approach to Willingness to Pay: Evidence Using Societal Values for NHS Dental Services’, Medical Decision Making. <a href="https://doi.org/10.1177/0272989x21996329" target="_blank">https://doi.org/10.1177/0272989x21996329</a>.</li>
 
 
-                                            <li>Schneider PP, Pouwels XG, Passos VL, Ramaekers BL, Geurts SM, Ibragimova KI, de Boer M, Erdkamp F, Vriens BE, van de Wouw AJ, den Boer MO. Variability of cost trajectories over the last year of life in patients with advanced breast cancer in the Netherlands. Plos one. 2020 Apr 9;15(4):e0230909. https://doi.org/10.1371/journal.pone.0230909
+                                            <li><b>Schneider PP</b>, Pouwels XG, Passos VL, Ramaekers BL, Geurts SM, Ibragimova KI, de Boer M, Erdkamp F, Vriens BE, van de Wouw AJ, den Boer MO. Variability of cost trajectories over the last year of life in patients with advanced breast cancer in the Netherlands. Plos one. 2020 Apr 9;15(4):e0230909. <a href="https://doi.org/10.1371/journal.pone.0230909" target="_blank">https://doi.org/10.1371/journal.pone.0230909</a>
                                             </li>
 
-                                            <li>Smith, R., Schneider, P., Bullas, A., Haake, S., Quirk, H., Cosulich, R. and Goyder, E., 2020. Does ethnic density influence community participation in mass participation physical activity events? The case of parkrun in England. Wellcome Open Research, 5(9), p.9. https://doi.org/10.12688/wellcomeopenres.15657.2
+                                            <li><b>Smith, R., Schneider,</b> P., Bullas, A., Haake, S., Quirk, H., Cosulich, R. and Goyder, E., 2020. Does ethnic density influence community participation in mass participation physical activity events? The case of parkrun in England. Wellcome Open Research, 5(9), p.9. <a href="https://doi.org/10.12688/wellcomeopenres.15657.2" target="_blank" rel="noopener noreferrer">https://doi.org/10.12688/wellcomeopenres.15657.2</a>
                                             </li>
 
-                                            <li>Schneider PP, van Gool CJ, Spreeuwenberg P, Hooiveld M, Donker GA, Barnett DJ, Paget J. Using digital epidemiology methods to monitor influenza-like illness in the Netherlands in real-time: the 2017-2018 season. Eurosurveillance. 2020. https://doi.org/10.1101/440867
+                                            <li><b>Schneider PP</b>, van Gool CJ, Spreeuwenberg P, Hooiveld M, Donker GA, Barnett DJ, Paget J. Using digital epidemiology methods to monitor influenza-like illness in the Netherlands in real-time: the 2017-2018 season. Eurosurveillance. 2020. <a href="https://doi.org/10.1101/440867" target="_blank" rel="noopener noreferrer">https://doi.org/10.1101/440867</a>
                                             </li>
 
-                                            <li>Bates, S., Bayley, T., Norman, P., Breeze, P. and Brennan, A., 2020. A Systematic Review of Methods to Predict Weight Trajectories in Health Economic Models of Behavioral Weight-Management Programs: The Potential Role of Psychosocial Factors. Medical Decision Making, 40(1), pp.90-105.
+                                            <li><b>Bates, S.</b>, Bayley, T., Norman, P., Breeze, P. and Brennan, A., 2020. A Systematic Review of Methods to Predict Weight Trajectories in Health Economic Models of Behavioral Weight-Management Programs: The Potential Role of Psychosocial Factors. Medical Decision Making, 40(1), pp.90-105. <a href="https://doi.org/10.1177/0272989x19889897" target="_blank" rel="noopener noreferrer">https://doi.org/10.1177/0272989x19889897</a>
                                             </li>
 
-                                            <li>Bates, S., Reeve, B. and Trevena, H., 2020. A narrative review of online food delivery in Australia: challenges and opportunities for public health nutrition policy. Public Health Nutrition, pp.1-11.
+                                            <li><b>Bates, S.</b>, Reeve, B. and Trevena, H., 2020. A narrative review of online food delivery in Australia: challenges and opportunities for public health nutrition policy. Public Health Nutrition, pp.1-11. <a href="http://dx.doi.org/10.1017/S1368980020000701" target="_blank" rel="noopener noreferrer">http://dx.doi.org/10.1017/S1368980020000701</a>
                                             </li>
 
-                                            <li>Schneider PP, Smith RA, Bullas AM, Bayley T, Haake SSJ, Brennan A, Goyder E. Identifying Optimal Locations for Maximising Access to parkrun – Interactive online map. 2019. http://iol-map.shef.ac.uk/ (website)
+                                            <li><b>Schneider PP, Smith RA,</b> Bullas AM, Bayley T, Haake SSJ, Brennan A, Goyder E. Identifying Optimal Locations for Maximising Access to parkrun – Interactive online map. 2019. <a href="http://iol-map.shef.ac.uk/" target="_blank" rel="noopener noreferrer"></a> (website)
                                             </li>
 
-                                            <li>Smith, R. (2018). An analysis of the HEAT tool method for valuing the benefits of physical activity. HEAT Team Internal Report.  World Health Organisation Regional Office for Europe.
+                                            <li><b>Smith, R.</b> (2018). An analysis of the HEAT tool method for valuing the benefits of physical activity. HEAT Team Internal Report.  World Health Organisation Regional Office for Europe.
                                             </li>
 
 
-                                            <li>Schneider PP, Geraedts M. Staffing and the incidence of pressure ulcers in German hospitals: A multicenter cross-sectional study. Nursing Health Sciences. 2016. http://dx.doi.org/10.4126/FRL01-006402986
+                                            <li><b>Schneider PP</b>, Geraedts M. Staffing and the incidence of pressure ulcers in German hospitals: A multicenter cross-sectional study. Nursing Health Sciences. 2016. <a href="http://dx.doi.org/10.4126/FRL01-006402986" target="_blank" rel="noopener noreferrer">http://dx.doi.org/10.4126/FRL01-006402986</a>
                                             </li>
                                         </ul>
                                         <div class="hide-pubs-btn">hide</div>
@@ -297,11 +356,11 @@
 
 
 
-        
+
             <div class="px-4 py-5 px-5 my-5 container-fluid alt_container">
                 <h1 class="display-5 section-head section" id = "testimonials">#testimonials</h1>
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-3 mt-5">
-                    
+
                     <!-- testi 1 -->
                     <div class="col p-3">
                         <div class="card shadow-sm border-primary">
@@ -381,7 +440,7 @@
 
                 </div>
             </div>
-        
+
 
 
         <div class= "section" id = "team">
@@ -390,18 +449,18 @@
 
 
                 <div class="d-flex flex flex-wrap justify-content-evenly mx-5">
-                    
+
                     <!-- Paul avatar -->
                     <div class="w-50 row avatar-container d-flex flex-wrap justify-content-evenly">
 
                         <div class="paul avatar"></div>
-                    
-                        <div class="bio w-50"> 
+
+                        <div class="bio w-50">
                             <div class="fs-4"> Paul Schneider</div>
                             <small class="text-muted">DrMed MD MSc</small><hr>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ab velit neque amet maiores sequi doloremque ipsa eius fuga natus molestias, cumque odit quae magnam repudiandae cum odio officia sunt? 
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ab velit neque amet maiores sequi doloremque ipsa eius fuga natus molestias, cumque odit quae magnam repudiandae cum odio officia sunt?
                             </p>
-                            <a class="highlight_lower" href="mailto:pschneider@darkpeakanalytics.com">pschneider@darkpeakanalytics.com</a> 
+                            <a class="highlight_lower" href="mailto:pschneider@darkpeakanalytics.com">pschneider@darkpeakanalytics.com</a>
                         </div>
                     </div>
 
@@ -409,20 +468,20 @@
                     <div class="w-50 row avatar-container d-flex flex-wrap justify-content-evenly">
 
                         <div class="rob avatar"></div>
-                    
-                        <div class="bio w-50"> 
+
+                        <div class="bio w-50">
                             <div class="fs-4"> Robert Smith</div>
                             <small class="text-muted">x y</small><hr>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ab velit neque amet maiores sequi doloremque ipsa eius fuga natus molestias, cumque odit quae magnam repudiandae cum odio officia sunt? 
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ab velit neque amet maiores sequi doloremque ipsa eius fuga natus molestias, cumque odit quae magnam repudiandae cum odio officia sunt?
                             </p>
-                            <a class="highlight_lower" href="mailto:rsmith@darkpeakanalytics.com">rsmith@darkpeakanalytics.com</a> 
+                            <a class="highlight_lower" href="mailto:rsmith@darkpeakanalytics.com">rsmith@darkpeakanalytics.com</a>
                         </div>
                     </div>
 
 
-                   
 
-                    
+
+
 
 
 
@@ -448,16 +507,16 @@
                     <div class="col-5">
                         <p> <div class="fs-4"> Robert Smith</div>
                             <small class="text-muted">BSc MSc</small>
-                            </p>                        
+                            </p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ab velit neque amet maiores sequi doloremque ipsa eius fuga natus molestias, cumque odit quae magnam repudiandae cum odio officia sunt?
                     </div>
                 </div>
-                    
+
      -->
-            
+
 
             </div>
-            
+
         </div>
 
 
@@ -480,23 +539,26 @@
                     <div class = "parallax-wrap2 text-white p-5 fs-4">
                         <div class="parallax-content2">
                             The <span class="highlight"> Dark Peak </span> is the higher and wilder part of the Peak District near Sheffield in England.
-                            It is famed for its desolate and exposed tracts of moorland top, and the open undulating high gritstone plateau with extensive blanket peat covered by cottongrass bog and heather moorland. 
+                            It is famed for its desolate and exposed tracts of moorland top, and the open undulating high gritstone plateau with extensive blanket peat covered by cottongrass bog and heather moorland.
 
                         </div>
                     </div>
         </div>
 
-        
+
 
         <div class="bg-dark text-center w-100 text-white p-3 fw-normal">
-             <span class="fw-lighter">&copy; 2020-2021</span> 
-             <a class="text-white fw-normal" href="mailto:contact@darkpeakanalytics.com">Dark Peak Analytics ltd</a>. 
-             <span class="fw-lighter">All Rights Reserved.</span> 
+             <span class="fw-lighter">&copy; 2020-2021</span>
+             <a class="text-white fw-normal" href="mailto:contact@darkpeakanalytics.com">Dark Peak Analytics ltd</a>.
+             <span class="fw-lighter">All Rights Reserved.</span>
         </div>
 
 
-    <script src="main.js"></script>
-    <script src="bootstrap.min.js"></script>
+
+        <script src="popper.min.js"></script>
+        <script src="bootstrap.min.js"></script>
+        <script src="main.js"></script>
+
 
 
 
