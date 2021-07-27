@@ -248,3 +248,20 @@ avatar {
     height: 250px;
 }
 
+
+
+/* dark links for contact */
+
+
+.dark_link {
+    color: #333
+}
+.dark_link:hover {
+    color: magenta
+}
+
+
+.contacts {
+    min-width: 450px;
+    white-space: nowrap;
+}
