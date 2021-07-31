@@ -51,16 +51,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
         window.addEventListener('scroll', function () {
 
-
+            
             const mainHeroHeight = document.querySelector(".navbar").offsetTop + 150;
 
-            let fromTop = window.pageYOffset  + mainHeroHeight;
+            let fromTop = window.pageYOffset + mainHeroHeight;
+            
             let cur = [];
 
             [...scrollItems].map(function(item) {
                 //debugger;
                 if (item.offsetTop < fromTop) {
-                cur.push(item);
+                    cur.push(item);
                 }
 
             });
@@ -72,7 +73,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 lastId = id;
 
                 menuItems.forEach(function (elem, index) {
-
 
                     elem.classList.remove("active");
                     const filteredItems = [...menuItems].filter(elem => elem.getAttribute("href") === `#${id}`);
