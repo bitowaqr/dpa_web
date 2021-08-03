@@ -107,7 +107,7 @@ body{
 .events {
     max-width: 500px;
     width: 25%;
-    background-color: white !important;
+    background-color: white;
     position: absolute;
     border-radius: 20px;
     padding: 15px 25px;
@@ -121,6 +121,7 @@ body{
     min-width: 300px;
     max-width: 400px;
     width: 30%;
+    background-color: white;
     top: 150px;
     right: 50px;
 }
@@ -131,6 +132,7 @@ body{
     /* Styles */
 .events {
     width: 100%;
+    background-color: white;
     top: 70px;
     right: 0px;
     left: 0;
