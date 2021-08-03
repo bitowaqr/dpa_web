@@ -19,6 +19,16 @@ body{
     margin-top: 70px
 }
 
+a {
+    color: magenta;
+}
+
+::selection {
+    background: rgb(255, 144, 255); 
+  }
+  ::-moz-selection {
+    background: rgb(255, 144, 255); 
+  }
 
 /* headings */
 .section-head {
@@ -264,7 +274,7 @@ body{
 .hidden-pubs-btn, .hide-pubs-btn {
     cursor: pointer;
     list-style-type: none;
-    color: #0d6efd;
+    color: magenta;
     margin-top: 10px;
   }
 
