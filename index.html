@@ -11,10 +11,11 @@
 
 
 </head>
+
 <body>
-
-
 <!-- NAVBAR -->
+
+
 
 <nav class="autohide navbar navbar-expand-lg navbar-light bg-white position-fixed w-100 border-bottom shadow-sm" id="navbar-hide">
     <div class="container">
@@ -62,12 +63,37 @@
             <div class = "parallax-wrap">
                 ""
                 <h1 class="display-5 fw-light text-start text-white w-50 parallax-content p-5" id="typewriter">Centered hero</h1>
-            </div>
 
+
+
+                
+                <div class="events">
+
+                    <h3 class="highlight">Upcoming event</h3> 
+                    
+                    <div class="pb-2"> 1 December 2021 | 12:30 - 13:30 CEST </div>
+                    
+                    <p>We will give a workshop on <b>"The Potential of R Shiny User Interfaces to Support Health Economic Decision Making"</b> at the <a class="highlight_lower" href="https://www.ispor.org/conferences-education/conferences/upcoming-conferences/ispor-europe-2021/abstract-information/issue-panels-and-workshops" target="_blank" rel="noopener noreferrer">Virtual ISPOR Europe 2021</a> Conference. 
+                    </p>
+                    
+
+
+
+                </div>
+
+            </div>
+            
 
         </div>
     </div>
 
+
+
+    <!-- shy Progress bar at the bottom of the screen-->
+
+    <div class="progress">
+        <div class="progress-bar progress-bar sticky" id = "sticky_progress" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
 
 
 
@@ -233,8 +259,8 @@
 
 
             <div class="d-flex flex-row flex-wrap-reverse my-5">
-                
-                
+
+
 
 
                 <div class="col-lg-5 offset-lg-1 overflow-hidden align-self-end">
@@ -280,10 +306,10 @@
 <div class= "section container" id = "research" style="max-width: 2000px;">
 
     <div class="px-4 pt-5 pb-1 px-5 my-3 row">
-        <h1 class="display-5 section-head" id = "research">#research</h1>
+        <h1 class="display-5 section-head mt-5" id = "research">#research</h1>
 
     <div class="col-lg-8 offset-lg-2 container my-5 lead">
-        
+
         We are keen to collaborate on interesting research projects that involve the application of data science methods to inform decision making. Previous projects range from the application of a spatial optimization algorithm and data dashboard creation, to the development of a new method of estimating the benefits of physical activity in heterogeneous populations for the WHO. For futher details, see list below.
     </div>
 
@@ -309,7 +335,16 @@
                     <li><b>Smith, R and Schneider, P.</b> 2020. Making health economic models Shiny: A tutorial. Wellcome Open Research, 5:69. <a href="https://doi.org/10.12688/wellcomeopenres.15807.2" target="_blank" rel="noopener noreferrer">https://doi.org/10.12688/wellcomeopenres.15807.2</a>
                     </li>
 
-                    <li><b>Schneider, P.P.</b>, Smith, R.A., Bullas, A.M., Bayley, T., Haake, S.S., Brennan, A. and Goyder, E. 2020. Multiple deprivation and geographic distance to community physical activity events — achieving equitable access to parkrun in England. Journal of Public Health. 48;53(189).  <a href="https://doi.org/10.1016/j.puhe.2020.09.002" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.puhe.2020.09.002</a>
+
+
+                    <li><b> Smith, R.A., Schneider, P.P.</b>, Cosulich, R., Quirk, H., Bullas, A.M., Haake, S.J. and Goyder, E., 2021. Socioeconomic inequalities in distance to and participation in a community-based running and walking activity: A longitudinal ecological study of parkrun 2010 to 2019. Health & Place, 71, p.102626. <a href="https://doi.org/10.1016/j.healthplace.2021.102626" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.healthplace.2021.102626</a>
+                    </li>
+
+
+                    <li><b>Schneider, P.P.</b>, van Gool, C.J., Spreeuwenberg, P., Hooiveld, M., Donker, G.A., Barnett, D.J. and Paget, J., 2020. Using web search queries to monitor influenza-like illness: an exploratory retrospective analysis, Netherlands, 2017/18 influenza season. Eurosurveillance, 25(21), p.1900221.<a href="https://doi.org/10.2807/1560-7917.ES.2020.25.21.1900221" target="_blank" rel="noopener noreferrer">https://doi.org/10.2807/1560-7917.ES.2020.25.21.1900221</a>
+                    </li>
+
+                    <li><b>Schneider, P.P., Smith, R.A.</b>, Bullas, A.M., Bayley, T., Haake, S.S., Brennan, A. and Goyder, E. 2020. Multiple deprivation and geographic distance to community physical activity events — achieving equitable access to parkrun in England. Journal of Public Health. 48;53(189).  <a href="https://doi.org/10.1016/j.puhe.2020.09.002" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.puhe.2020.09.002</a>
                     </li>
 
                     </ul>
@@ -388,82 +423,44 @@
             <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
                 <ul>
-                <li>24th January 2020 - Market Access Consultancy -  Use of R-Shiny for HTA applications (workshop).</li>
 
-                <li>4th February 2020 -  Sheffield-R group- R for decision science (presentation).  <a href="https://github.com/RobertASmith/talks/blob/master/Decision%20Science%20RSheffield.pdf" target="_blank" 
-                    class="highlight_lower"
-                    rel="noopener noreferrer">Slides here</a> </li>
 
-                <li>28th February 2020 - University of Sheffield -  Making Health Economic Evaluation Models Shiny (workshop). 
-                    <a href="https://github.com/RobertASmith/talks/blob/master/RShiny%20for%20Health%20Economics%20ScHARR%20Feb20.pdf" target="_blank" 
-                    class="highlight_lower"
-                    rel="noopener noreferrer">Slides here</a>
-                    
-                    
-                
-                
-                </li>
 
-                <li>26th June 2020 - R-HTA (UCL) - Markov Models in Shiny.  
-                    
-                    <a href="https://r-hta.org/tutorial/markov_models_shiny/" target="_blank" rel="noopener noreferrer" class="highlight_lower">webpage here</a>
-                    
-                    
-                    
+                    <li>1st July 2021 - R-HTA Conference - Rise and Shiny: A new dawn for HTA.
+                        <a href="https://github.com/RobertASmith/talks/blob/master/Rise%20and%20Shiny%2C%20a%20new%20dawn%20for%20HTA.pdf" target="_blank" rel="noopener noreferrer" class="highlight_lower">Slides here</a></li>
+
+                    <li>25th June 2021 - University of Sheffield - Shiny for HTA. <a href="https://github.com/RobertASmith/talks/blob/master/Rise%20and%20Shiny%2C%20a%20new%20dawn%20for%20HTA.pdf" target="_blank" rel="noopener noreferrer" class="highlight_lower">Slides here</a></li>
+
+                    <li>17th June 2021 - University of Leeds - The greatest possible impact: The Wellcome Trust and open research.<a href="https://github.com/RobertASmith/talks/blob/master/Open%20Research%20Wellcome%20Trust%20Leeds%202021.pdf" target="_blank" rel="noopener noreferrer" class="highlight_lower">Slides here</a></li>
+
+
+                    <li>10th March 2021 - World Health Organization - HEAT EAG - Valuing premature deaths averted vs life years saved. </li>
+
+                    <li>20th November 2020- Wellcome blog. Ready to run: Community participation in parkrun. <a href="https://blog.wellcomeopenresearch.org/2020/11/20/ready-to-run-community-participation-in-parkrun-in-england/" target="_blank" rel="noopener noreferrer" class="highlight_lower">Blog here</a></li>
+
+                    <li>11th November 2020 - NHS-R Virtual Conference. Making Health Economics Shiny - <a href="https://github.com/RobertASmith/talks/blob/master/NHS-R%20Presentation.pdf" target="_blank" rel="noopener noreferrer" class="highlight_lower">Slides here</a>. </li>
+
+                    <li>20th October 2020 - Sheffield University Library. Open Research with the Wellcome Trust. Slides here. <a href="https://github.com/RobertASmith/talks/blob/master/Open%20Research%20Wellcome%20Trust.pdf" target="_blank" rel="noopener noreferrer" class="highlight_lower">Slides here</a></li>
+
+                    <li>27th August 2020 - 'Free Weekly Timed' podcast - parkrun research collaboration. podcast link (Rob is at 22:45-40:00) </li>
+
+                    <li>10th August 2020 - ScHARR, University of Sheffield -  Use of R for Health Research. <a href="https://r4scharr.shinyapps.io/intro/#section-session1" target="_blank" rel="noopener noreferrer" class="highlight_lower">course website here</a></li>
+
+                    <li>26th June 2020 - R-HTA (UCL) - Markov Models in Shiny.
+                        <a href="https://r-hta.org/tutorial/markov_models_shiny/" target="_blank" rel="noopener noreferrer" class="highlight_lower">webpage here</a></li>
+
+                    <li>28th February 2020 - University of Sheffield -  Making Health Economic Evaluation Models Shiny (workshop).
+                        <a href="https://github.com/RobertASmith/talks/blob/master/RShiny%20for%20Health%20Economics%20ScHARR%20Feb20.pdf" target="_blank"
+                        class="highlight_lower"
+                        rel="noopener noreferrer">Slides here</a>
                     </li>
 
-                <li>10th August 2020 - ScHARR, University of Sheffield -  Use of R for Health Research.  
-                    
+                    <li>4th February 2020 -  Sheffield-R group- R for decision science (presentation).  <a href="https://github.com/RobertASmith/talks/blob/master/Decision%20Science%20RSheffield.pdf" target="_blank"
+                        class="highlight_lower"
+                        rel="noopener noreferrer">Slides here</a> </li>
 
-                    <a href="https://r4scharr.shinyapps.io/intro/#section-session1" target="_blank" rel="noopener noreferrer" class="highlight_lower">course website here</a>
-                    
+                    <li>24th January 2020 - Market Access Consultancy -  Use of R-Shiny for HTA applications (workshop).</li>
 
-
-                </li>
-
-                <li>27th August 2020 - 'Free Weekly Timed' podcast - parkrun research collaboration. podcast link (Rob is at 22:45-40:00) </li>
-
-                <li>20th October 2020 - Sheffield University Library. Open Research with the Wellcome Trust. Slides here. <a href="https://github.com/RobertASmith/talks/blob/master/Open%20Research%20Wellcome%20Trust.pdf" target="_blank" rel="noopener noreferrer" class="highlight_lower">Slides here</a></li>
-
-
-                
-
-                
-
-                <li>11th November 2020 - NHS-R Virtual Conference. Making Health Economics Shiny - 
-
-
-                    <a href="https://github.com/RobertASmith/talks/blob/master/NHS-R%20Presentation.pdf" target="_blank" rel="noopener noreferrer" class="highlight_lower">Slides here</a>
-
-                    
-                    
-                    . </li>
-
-                <li>20th November 2020- Wellcome blog. Ready to run: Community participation in parkrun. 
-                    
-                    <a href="https://blog.wellcomeopenresearch.org/2020/11/20/ready-to-run-community-participation-in-parkrun-in-england/" target="_blank" rel="noopener noreferrer" class="highlight_lower">Blog here</a>
-                    </li>
-
-                <li>10th March 2021 - World Health Organization - HEAT EAG - Valuing premature deaths averted vs life years saved. </li>
-
-                <li>17th June 2021 - University of Leeds - The greatest possible impact: The Wellcome Trust and open research. 
-                    
-                    <a href="https://github.com/RobertASmith/talks/blob/master/Open%20Research%20Wellcome%20Trust%20Leeds%202021.pdf" target="_blank" rel="noopener noreferrer" class="highlight_lower">Slides here</a>
-                    
-                     </li>
-
-                <li>25th June 2021 - University of Sheffield - Shiny for HTA.
-                    
-                    <a href="https://github.com/RobertASmith/talks/blob/master/Rise%20and%20Shiny%2C%20a%20new%20dawn%20for%20HTA.pdf" target="_blank" rel="noopener noreferrer" class="highlight_lower">Slides here</a>
-                    
-                    </li>
-
-                <li>1st July 2021 - R-HTA Conference - Rise and Shiny: A new dawn for HTA. 
-                    
-                    <a href="https://github.com/RobertASmith/talks/blob/master/Rise%20and%20Shiny%2C%20a%20new%20dawn%20for%20HTA.pdf" target="_blank" rel="noopener noreferrer" class="highlight_lower">Slides here</a>
-                    
-                    
-                     </li>
             </ul>
         </div>
     </div>
@@ -477,12 +474,12 @@
 
 <!-- TESTIMONIALS -->
 <div
-class="px-5 py-5 container-fluid alt_container featured-section2"
+class="px-5 py-5 container-fluid parallax-wrap3"
 >
     <div class="px-4 px-5 container" style="max-width: 2000px;">
         <h1
         class="display-5 section-head section py-2 px-4
-        rounded-pill bg-white d-inline shadow-sm"
+        rounded-pill bg-white d-inline shadow-sm border"
         id = "testimonials"
         > #testimonials</h1>
 
@@ -599,7 +596,7 @@ class="px-5 py-5 container-fluid alt_container featured-section2"
 
                 <img
                 src="./assets/paul_round.png"
-                class="shadow-lg justify-self-center mb-3"
+                class="justify-self-center mb-3 avatar"
                 alt="paul"
                 style="
                 border-radius: 50% !important;
@@ -609,11 +606,8 @@ class="px-5 py-5 container-fluid alt_container featured-section2"
                 >
 
                 <div class="col-5 offset-1 flex-fill">
-                    <div class="fs-4"> Paul Schneider</div>
-                    <small class="text-muted">DrMed MD MSc</small><hr>
+                    <div class="fs-4 underline"> Dr Paul Schneider</div>
                     <p>Paul is a health scientist based in Bochum, Germany. Trained as a medical doctor and epidemiologist, he combines a deep domain knowledge with strong technical skills in data science, programming, and decision modelling.  His main research interest is currently in  the valuation of health benefits for economic evaluations and the interpersonal comparability of preferences.  He is a keen advocate of open science practices.
-
-
                     </p>
                     <a class="highlight_lower" href="mailto:pschneider@darkpeakanalytics.com">pschneider@darkpeakanalytics.com</a>
                 </div>
@@ -628,8 +622,8 @@ class="px-5 py-5 container-fluid alt_container featured-section2"
 
                 <img
                 src="./assets/rob_round.png"
-                class="shadow-lg justify-self-center mb-3"
-                alt="paul"
+                class="justify-self-center mb-3 avatar"
+                alt="rob"
                 style="
                 border-radius: 50% !important;
                 width: 250px;
@@ -638,8 +632,7 @@ class="px-5 py-5 container-fluid alt_container featured-section2"
                 >
 
                 <div class="col-5 offset-1 flex-fill">
-                    <div class="fs-4"> Robert Smith</div>
-                    <small class="text-muted">BA MSc</small><hr>
+                    <div class="fs-4 underline"> Robert Smith</div>
                     <p>Rob is a health economist based in Sheffield, UK.  His research focuses on the methods used to estimate the costs and benefits of public health interventions, with a specific interest in microsimulation modelling in R. He is a expert advisor in Public Health Economics & Decision Science to the WHO-HEAT project. He is currently working at the Joint Biosecurity Centre to help inform the UK government response to the pandemic.
 
 
@@ -647,6 +640,63 @@ class="px-5 py-5 container-fluid alt_container featured-section2"
                     <a class="highlight_lower" href="mailto:rsmith@darkpeakanalytics.com">rsmith@darkpeakanalytics.com</a>
                 </div>
             </div>
+
+
+
+
+            <!-- bio Sarah -->
+            <div
+            style="min-width: 300px; max-width: 700px;"
+            class="col-6 d-flex flex-row flex-wrap flex-fill justify-content-center mb-5 mx-3"
+            >
+
+                <img
+                src="./assets/sarah_round.png"
+                class="justify-self-center mb-3 avatar"
+                alt="sarah"
+                style="
+                border-radius: 50% !important;
+                width: 250px;
+                height: 250px;
+                "
+                >
+
+                <div class="col-5 offset-1 flex-fill">
+                    <div class="fs-4 underline"> Dr Sarah Bates</div>
+                    <p>Sarah is a health economist with a background in health psychology based in Sheffield, UK . Her research focuses on the inclusion of psychological indicators within complex health economic models. She has experience working with a wide range of stakeholders and building complex microsimulation models in R.
+                    </p>
+                    <a class="highlight_lower" href="mailto:contact@darkpeakanalytics.com">contact@darkpeakanalytics.com</a>
+                </div>
+            </div>
+
+
+
+            <!-- bio Wael -->
+            <div
+            style="min-width: 300px; max-width: 700px;"
+            class="col-6 d-flex flex-row flex-wrap flex-fill justify-content-center mb-5 mx-3"
+            >
+
+                <img
+                src="./assets/wael_round.png"
+                class="justify-self-center mb-3 avatar"
+                alt="wael"
+                style="
+                border-radius: 50% !important;
+                width: 250px;
+                height: 250px;
+                "
+                >
+
+                <div class="col-5 offset-1 flex-fill">
+                    <div class="fs-4 underline"> Wael Mohammed</div>
+                    <p>
+
+                        Wael is a health economist with a background in pharmacy and public health. In addition, he has experience in decision-analytic modelling, econometrics, and data science. He is currently pursuing a PhD in public health, economics and decision science at the University of Sheffield.                    </p>
+                    <a class="highlight_lower" href="mailto:contact@darkpeakanalytics.com">contact@darkpeakanalytics.com</a>
+                </div>
+            </div>
+
 
 
 
@@ -681,9 +731,8 @@ class="px-5 py-5 container-fluid alt_container featured-section2"
                 <h1 class="display-5 section-head pb-3">#contact</h1>
 
                 <p class="fs-4">
-                    <span class="fw-bolder"> Dark Peak Analytics ltd.</span> <br>
-                    46 Greystones Hall Road<br>
-                    Sheffield, England, S11 7BA <br>
+                    <span class="fw-bolder"> Dark Peak Analytics Limited</span> <br>
+                    Sheffield, England<br>
                 </p>
 
 
@@ -697,10 +746,10 @@ class="px-5 py-5 container-fluid alt_container featured-section2"
 
 
         <div
-        class="text-white align-self-end ms-auto pe-5 mt-5 flex-fill"
+        class="text-white align-self-end ms-auto pe-5 mt-5 flex-fill dpa_origin"
         style="max-width: 700px;"
         >
-            The <span class="highlight_lower"> Dark Peak </span> is the higher and wilder part of the Peak District near Sheffield in England.
+            The <span class="highlight_lower fw-bold"> Dark Peak </span> is the higher and wilder part of the Peak District near Sheffield in England.
             It is famed for its desolate and exposed tracts of moorland top, and the open undulating high gritstone plateau with extensive blanket peat covered by cottongrass bog and heather moorland.
 
         </div>
@@ -712,9 +761,9 @@ class="px-5 py-5 container-fluid alt_container featured-section2"
 
 
 
-<div class="bg-dark text-center w-100 text-white p-3 fw-normal">
+<div class="bg-dark text-center w-100 text-white p-3 fw-normal footer">
     <span class="fw-lighter">&copy; 2020-2021</span>
-    <a class="text-white fw-normal" href="mailto:contact@darkpeakanalytics.com">Dark Peak Analytics ltd</a>.
+    <a class="text-white fw-normal" href="mailto:contact@darkpeakanalytics.com">Dark Peak Analytics</a>. Company no: 12790840. 
     <span class="fw-lighter">All Rights Reserved.</span>
 </div>
 

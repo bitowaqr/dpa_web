@@ -3,7 +3,7 @@
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
-        
+
         const element = document.querySelector(this.getAttribute('href'))
         const offset = 15;
         const bodyRect = document.body.getBoundingClientRect().top;
@@ -49,13 +49,36 @@ document.addEventListener("DOMContentLoaded", function () {
         let scrollItems = document.querySelectorAll(".section")
         const menuItems = document.querySelectorAll(".nav-link");
 
+        // shy progress bar
+        const progress = document.querySelector('#sticky_progress');
+
         window.addEventListener('scroll', function () {
 
-            
+
             const mainHeroHeight = document.querySelector(".navbar").offsetTop + 150;
+            // shy progress bar
+            let max_y = document.documentElement.scrollHeight - window.innerHeight;
+            let current_y = window.pageYOffset ;
+            let perc_y = (current_y / max_y) * 100;
+
+            if (perc_y % 1 < 0.1) {
+                progress.style.width = perc_y + "%"
+            }
+            if (perc_y == 100) {
+                finished_page = 1;
+                progress.classList.add("progress-bar-striped")
+                progress.classList.add("progress-bar-animated")
+            } else {
+                if (progress.classList.contains("progress-bar-animated")) {
+                    progress.classList.remove("progress-bar-striped")
+                    progress.classList.remove("progress-bar-animated")
+                }
+            }
+
+
 
             let fromTop = window.pageYOffset + mainHeroHeight;
-            
+
             let cur = [];
 
             [...scrollItems].map(function(item) {
@@ -145,6 +168,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     }
+
+
+
+
+
+
+
+
 })
 
 
