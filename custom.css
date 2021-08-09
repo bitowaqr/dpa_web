@@ -1,12 +1,12 @@
 
 
-@import url('https://fonts.googleapis.com/css?family=Courier+Prime: 200, 300, 400, 500i');
-@import url('https://fonts.googleapis.com/css?family=Work+Sans: 200, 300, 350,400,500i,600, 700');
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime:400');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans: 300, 350,400,500i,600, 700');
 
 
 
 * {
-    font-family: "Work Sans", Arial;
+    font-family: "Work Sans", sans-serif;
 }
 
 
@@ -244,7 +244,7 @@ a {
 }
 
 .accordion-button:not(.collapsed){
-    background-color: rgba(255, 0, 255, 0.21);
+    background-color: rgb(255, 232, 255);
     color: black;
 }
 .accordion-button {
