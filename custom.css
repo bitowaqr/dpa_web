@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Courier+Prime:400");
-@import url("https://fonts.googleapis.com/css?family=Work+Sans: 300, 350,400,500i,600, 700");
 
 * {
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Inter', sans-serif !important;
 }
 
 html,
@@ -388,4 +387,13 @@ a {
     word-wrap: break-word;
     font-size: 15px !important;
   }
+}
+
+
+.btn-magenta-glow {
+
+}
+
+.btn-magenta-glow:hover {
+  box-shadow: 0 0 10px 1px magenta;
 }
