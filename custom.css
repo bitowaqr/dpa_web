@@ -47,7 +47,7 @@ a {
   margin: 25px;
   border: solid 1px rgb(52, 52, 52);
   border-radius: 10px;
-  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0);
 }
 
 /* sticky progressbar */
@@ -217,19 +217,7 @@ a {
   /* background-color: rgba(0, 0, 0, .1); */
 
   /* background-image:radial-gradient(circle at top left, #156c98,#777db8,#a579b4,#da81a5, #fccd8d,#fdf9d5, #fdce7e); */
-  background-image: linear-gradient(
-    to bottom,
-    #558096,
-    #777db8,
-    #a579b4,
-    #da81a5,
-    #fccd8d,
-    #fccd8d,
-    #fdf9d5,
-    #fdf9d5,
-    #fdce7e,
-    #feb333
-  );
+  
   border: solid rgba(0, 0, 0, 0.15);
   border-width: 1px 0;
   box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%),
